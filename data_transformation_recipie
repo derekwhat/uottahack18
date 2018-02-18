@@ -1,0 +1,12 @@
+
+{
+  "groups": {
+    "NUMERIC_VARS_QB_500": "group('price','points')"
+  },
+  "assignments": {},
+  "outputs": [
+    "quantile_bin(NUMERIC_VARS_QB_500,500)",
+    "ngram(lowercase(no_punct(description)),4)", 
+    "ALL_CATEGORICAL"
+  ]
+}
